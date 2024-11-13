@@ -34,7 +34,7 @@ export const testimonials = [
   },
   {
     user: "David Johnson",
-    company: "Blockchain Developer",
+    company: "Web Developer",
     image: user3,
     text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
   },
