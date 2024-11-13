@@ -21,14 +21,17 @@ const HeroSection = () => {
           Seriously.
         </p>
 
-        <div className="sm:block sm:w-1/3 lg:w-3/5 relative my-10">
+        <div class="flex flex-col mt-8 mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-start sm:space-y-0 sm:space-x-4">
           <a
             href="#"
-            className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+            class="inline-flex bg-black justify-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 "
           >
             Start for free
           </a>
-          <a href="#" className="py-3 px-4 mx-3 rounded-md border">
+          <a
+            href="#"
+            class="inline-flex justify-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-dark dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          >
             Documentation
           </a>
         </div>
