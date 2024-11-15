@@ -2,24 +2,25 @@ import Workflow from "./components/Workflow";
 import FeatureSection from "./components/FeatureSection";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
-import Prisyn from "./components/Prisyn";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 import UnlockCrypto from "./components/UnlockCrypto";
-import Questions from "./components/Questions";
+import Pricing from "./components/Pricing";
+import Answers from "./components/Answers";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto pt-20 px-6">
-        <HeroSection />
+
+      <HeroSection />
+      <div className="max-w-7xl mx-auto px-6">
         <FeatureSection />
         <Workflow />
         <UnlockCrypto />
         <Testimonials />
-        <Prisyn />
-        <Questions />
+        <Pricing />
+        <Answers />
         <Footer />
       </div>
     </>

@@ -2,8 +2,6 @@ import { BotMessageSquare } from "lucide-react";
 import { BatteryCharging } from "lucide-react";
 import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,10 +11,11 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
+  { label: "Home", href: "#" },
   { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "About", href: "#" },
+  { label: "Blog", href: "#" },
+  { label: "Contact", href: "#" },
 ];
 
 export const testimonials = [
@@ -122,33 +121,47 @@ export const checklistItems = [
 
 export const pricingOptions = [
   {
-    title: "Free",
+    title: "Basic Plan",
     price: "$0",
+    month: "Free Forever",
+    clue: "Perfect for individual exploring DeFi",
+    button: "Get Started",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Secure Wallet",
+      "Basic Support",
+      "Portfolio View",
+      "Market Update",
+      "Educational Resources",
+      "Community Access",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Pro Plan",
+    price: "$12",
+    month: "/ $19 per Month",
+    clue: "Ideal for serious traders and teams",
+    button: "Join Now",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Advanced Analytics",
+      "Priority Support",
+      "Custom Alerts",
+      "Expanded Resources",
+      "Exclusive Webinars",
+      "Voting Power",
     ],
   },
   {
-    title: "Enterprise",
-    price: "$200",
+    title: "Enterprise Plan",
+    price: "Custom Pricing",
+    clue: "Tailor-made solutions for organizations",
+    button: "Contact Us",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Dedicated Account Manager",
+      "Custom Integrations",
+      "24/7 Support",
+      "Enhanced Security",
+      "Bespoke Analytics",
+      "Comprehensive Training",
     ],
   },
 ];
