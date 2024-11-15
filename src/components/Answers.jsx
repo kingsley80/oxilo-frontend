@@ -5,7 +5,7 @@ const Answers = () => {
   return (
     <div className="mt-20 tracking-wide">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-5 tracking-wider">
-        Choose Your Plan
+        Your Questions Answered
       </h2>
       <p className="text-md mb-9 text-center text-neutral-500">
         Explore Oxilo Features.
