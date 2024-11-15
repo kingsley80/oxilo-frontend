@@ -8,14 +8,14 @@ const HeroSection = () => {
             src="https://www.tailwind-kit.com/images/object/10.png"
             alt="logo"
           />
-          <h4 class="ml-2 text-sm font-bold tracking-widest text-primary">
+          <h4 class="ml-2 text-sm font-bold tracking-widest text-black">
             WELCOME TO DESIGN GEN
           </h4>
         </div>
-        <h1 class="mb-8 text-4xl font-extrabold leading-tight text-dark-grey-900 lg:text-5xl xl:w-11/12 xl:text-6xl">
+        <h1 class="mb-8 text-4xl font-extrabold leading-tight text-black lg:text-5xl xl:w-11/12 xl:text-6xl">
           Empower your Crypto
         </h1>
-        <p class="mb-4 text-base font-medium leading-7 text-dark-grey-600 xl:w-3/4">
+        <p class="mb-4 text-base font-medium leading-7 text-black xl:w-3/4">
           Save hundreds of hours trying to create and develop a dashboard from
           scratch. The fastest, most responsive & trendiest dashboard is here.
           Seriously.
